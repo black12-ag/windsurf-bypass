@@ -1,5 +1,7 @@
 # Educational License
 
+**Copyright (c) 2025 Munir**
+
 This project is for educational and research purposes only.
 
 ## Terms
@@ -12,7 +14,7 @@ This project is for educational and research purposes only.
 
 4. **Compliance**: Users are responsible for ensuring their use complies with all applicable laws and terms of service.
 
-5. **Attribution**: This project is customized by Munir based on open source projects.
+5. **Attribution**: This project is customized and maintained by Munir based on open source projects.
 
 ## Disclaimer
 

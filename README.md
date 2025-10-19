@@ -2,6 +2,9 @@
 
 ### 🚀 Professional Account Management for Windsurf AI Editor
 
+**Author: Munir**  
+**Customized by Munir - Ready to use!**
+
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/black12-ag/windsurf-bypass-tool)
 [![Python](https://img.shields.io/badge/python-3.8+-green.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/black12-ag/windsurf-bypass-tool)
@@ -291,11 +294,19 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 
 See [LICENSE.md](LICENSE.md) for details.
 
+## 📄 Copyright and License
+
+**Copyright (c) 2025 Munir**  
+All rights reserved.
+
+This project is customized and maintained by **Munir**. The tool is provided for educational and research purposes only.
+
 ## 🙏 Acknowledgments
 
 - Original project inspiration from the Windsurf community
 - All contributors who helped improve this tool
 - Users who provided feedback and suggestions
+- **Munir** for customization and maintenance of this version
 
 ---
 
@@ -306,5 +317,7 @@ See [LICENSE.md](LICENSE.md) for details.
 **Version 1.0.0** | [GitHub](https://github.com/black12-ag/windsurf-bypass-tool) | [Issues](https://github.com/black12-ag/windsurf-bypass-tool/issues)
 
 ⭐ **Star this repo if you find it helpful!** ⭐
+
+**Maintained and Customized by Munir**
 
 </div>
