@@ -28,7 +28,10 @@ echo "✅ Python 3 found"
 
 # Check Python version
 PYTHON_VERSION=$(python3 -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')
-if [[ $(echo "$PYTHON_VERSION < 3.8" | bc -l) -eq 1 ]]; then
+MAJOR_VERSION=$(echo "$PYTHON_VERSION" | cut -d. -f1)
+MINOR_VERSION=$(echo "$PYTHON_VERSION" | cut -d. -f2)
+
+if [[ $MAJOR_VERSION -lt 3 ]] || [[ $MAJOR_VERSION -eq 3 && $MINOR_VERSION -lt 8 ]]; then
     echo "❌ Python version $PYTHON_VERSION is too old"
     echo "Please upgrade to Python 3.8 or higher"
     exit 1
