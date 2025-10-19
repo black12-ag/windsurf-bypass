@@ -46,11 +46,11 @@ mkdir -p "$INSTALL_DIR"
 echo "📥 Downloading Windsurf Bypass Tool..."
 if command -v git &> /dev/null; then
     # Use git if available
-    git clone https://github.com/black12-ag/windsurf-bypass-tool.git "$INSTALL_DIR"
+    git clone https://github.com/black12-ag/windsurf-bypass.git "$INSTALL_DIR"
 else
     # Fallback to curl if git is not available
     echo "⚠️ Git not found, using curl for download"
-    curl -fsSL https://github.com/black12-ag/windsurf-bypass-tool/archive/main.tar.gz | tar -xz -C "$INSTALL_DIR" --strip-components=1
+    curl -fsSL https://github.com/black12-ag/windsurf-bypass/archive/main.tar.gz | tar -xz -C "$INSTALL_DIR" --strip-components=1
 fi
 
 # Change to installation directory

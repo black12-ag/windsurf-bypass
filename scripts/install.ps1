@@ -55,7 +55,7 @@ Write-Host "📥 Downloading Windsurf Bypass Tool..." -ForegroundColor Cyan
 $gitCmd = Get-Command git -ErrorAction SilentlyContinue
 if ($gitCmd) {
     # Use git if available
-    git clone https://github.com/black12-ag/windsurf-bypass-tool.git .
+    git clone https://github.com/black12-ag/windsurf-bypass.git .
 } else {
     # Fallback to direct download if git is not available
     Write-Host "⚠️ Git not found, using direct download" -ForegroundColor Yellow
