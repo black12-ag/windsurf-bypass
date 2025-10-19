@@ -5,9 +5,9 @@
 **Author: Munir**  
 **Customized by Munir - Ready to use!**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/black12-ag/windsurf-bypass-tool)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/black12-ag/windsurf-bypass)
 [![Python](https://img.shields.io/badge/python-3.8+-green.svg)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/black12-ag/windsurf-bypass-tool)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/black12-ag/windsurf-bypass)
 [![License](https://img.shields.io/badge/license-Educational-yellow.svg)](LICENSE.md)
 
 **A powerful, cross-platform automation tool for seamless Windsurf AI Editor account management.**
@@ -45,12 +45,12 @@ The fastest way to install - just copy and paste:
 
 **macOS/Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/black12-ag/windsurf-bypass-tool/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
+curl -fsSL https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/black12-ag/windsurf-bypass-tool/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.ps1 | iex
 ```
 
 ### 📋 Manual Installation
@@ -147,7 +147,7 @@ When you run the tool, you'll see this menu:
        Pro Version Activator v1.0.0
               Author: Munir
 
-Github: https://github.com/black12-ag/windsurf-bypass-tool
+Github: https://github.com/black12-ag/windsurf-bypass
        Customized by Munir - Ready to use!
 
 📋 Available Options:
@@ -314,7 +314,7 @@ This project is customized and maintained by **Munir**. The tool is provided for
 
 ### Made with ❤️ by Munir
 
-**Version 1.0.0** | [GitHub](https://github.com/black12-ag/windsurf-bypass-tool) | [Issues](https://github.com/black12-ag/windsurf-bypass-tool/issues)
+**Version 1.0.0** | [GitHub](https://github.com/black12-ag/windsurf-bypass) | [Issues](https://github.com/black12-ag/windsurf-bypass/issues)
 
 ⭐ **Star this repo if you find it helpful!** ⭐
 

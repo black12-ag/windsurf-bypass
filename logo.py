@@ -17,7 +17,7 @@ def print_logo():
                           Pro Version Activator v{version}
                                  Author: Munir
                                         
-            Github: https://github.com/black12-ag/windsurf-bypass-tool
+            Github: https://github.com/black12-ag/windsurf-bypass
                       Customized by Munir - Ready to use!
     """
     print(Fore.CYAN + logo + Style.RESET_ALL)
