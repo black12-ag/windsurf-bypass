@@ -1,115 +1,93 @@
-# Windsurf Bypass Tool
+# 🚀 Windsurf Bypass Tool
 
-### 🚀 Professional Account Management for Windsurf AI Editor
-
-**Author: Munir**  
-**Customized by Munir - Ready to use!**
+**Cross-platform Python tool for Windsurf AI Editor: Reset machine identity & manage accounts**
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/black12-ag/windsurf-bypass)
 [![Python](https://img.shields.io/badge/python-3.8+-green.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/black12-ag/windsurf-bypass)
 [![License](https://img.shields.io/badge/license-Educational-yellow.svg)](LICENSE.md)
 
-**A powerful, cross-platform automation tool for seamless Windsurf AI Editor account management.**
+**Author: Munir** | **Customized by Munir - Ready to use!**
 
 ---
 
-<!-- Quick Install section removed completely -->
+## 🎯 What is This?
 
-### 📋 Installation (Single Command)
+Windsurf Bypass provides tools to manage your Windsurf AI Editor identity:
+- 🔄 **Reset Machine ID** - Reset device fingerprint while keeping settings
+- ✅ **Register New Account** - Automated account creation with temporary email
+- 🔄 **Total Reset** - Complete fresh start (recommended)
 
-**Prerequisites:**
-- Python 3.8 or higher
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+ (pre-installed on macOS/Linux)
 - Git installed
-- Internet connection
-- Admin/sudo privileges (for some operations)
+- Admin privileges (recommended)
 
----
+### Installation
 
 #### **🆕 First Time Installation**
 
+```bash
+# Clone and run (all platforms)
+git clone https://github.com/black12-ag/windsurf-bypass.git
+cd windsurf-bypass
+
+# Install dependencies
+pip3 install -r requirements.txt  # macOS/Linux
+pip install -r requirements.txt   # Windows
+
+# Run the tool
+python3 main.py  # macOS/Linux
+python main.py   # Windows
+```
+
+#### **🔄 Already Installed? Quick Update**
+
 **Windows (PowerShell)**
 ```powershell
-git clone https://github.com/black12-ag/windsurf-bypass.git "$env:USERPROFILE\windsurf-bypass-tool"; cd "$env:USERPROFILE\windsurf-bypass-tool"; pip install -r requirements.txt; python main.py
+cd "$env:USERPROFILE\windsurf-bypass"; git pull; pip install -r requirements.txt --upgrade; python main.py
 ```
 
 **macOS / Linux**
 ```bash
-git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass-tool && cd ~/windsurf-bypass-tool && pip3 install -r requirements.txt && python3 main.py
+cd ~/windsurf-bypass && git pull && pip3 install -r requirements.txt --upgrade && python3 main.py
 ```
 
 ---
 
-#### **🔄 Already Installed? Use This Instead** (Recommended)
+## 📋 One-Line Installation Commands
 
-**Windows (PowerShell)**
+### **Windows (PowerShell)**
+
+**First Time:**
 ```powershell
-cd "$env:USERPROFILE\windsurf-bypass-tool"; git pull; pip install -r requirements.txt --upgrade; python main.py
+git clone https://github.com/black12-ag/windsurf-bypass.git "$env:USERPROFILE\windsurf-bypass"; cd "$env:USERPROFILE\windsurf-bypass"; pip install -r requirements.txt; python main.py
 ```
 
-**macOS / Linux**
+**Already Installed:**
+```powershell
+cd "$env:USERPROFILE\windsurf-bypass"; git pull; pip install -r requirements.txt --upgrade; python main.py
+```
+
+### **macOS / Linux**
+
+**First Time:**
 ```bash
-cd ~/windsurf-bypass-tool && git pull && pip3 install -r requirements.txt --upgrade && python3 main.py
+git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass && cd ~/windsurf-bypass && pip3 install -r requirements.txt && python3 main.py
 ```
 
-> **💡 Tip:** If you already have the folder, use the "Already Installed" command above. It updates the code, upgrades dependencies, and runs the tool.
-
-## ✨ Features
-
-### 🎯 Core Functionality
-- **🔄 Machine ID Reset** - Instantly reset your Windsurf machine identifiers
-- **📧 Smart Registration** - Two registration modes for maximum flexibility
-- **🔐 Secure Account Management** - Safe handling of credentials and tokens
-- **🌍 Multi-Language Support** - 15 languages including English, Chinese, Spanish, and more
-- **⚡ Cross-Platform** - Works seamlessly on Windows, macOS, and Linux
-
-### 🎨 Registration Modes
-
-#### 🤖 Automatic Mode (Option 1)
-- Fully automated browser control
-- Auto-generates temporary email
-- Automatic verification code retrieval
-- Zero manual intervention required
-- Perfect for quick setups
-
-#### 👤 Manual Mode (Option 2) - ⭐ NEW
-- Generates temporary email for you
-- You control the registration in your browser
-- Displays verification code when it arrives
-- No browser automation - you're in full control
-- Perfect for troubleshooting or custom workflows
-
-<!-- Quick Start section removed -->
-
-## 📖 How to Use (3 Simple Steps)
-
-### **Step 1: Copy the command** 📋
-Choose your operating system above and copy the one-line command.
-
-### **Step 2: Paste in terminal** 💻
-- **macOS/Linux:** Open Terminal
-- **Windows:** Open PowerShell as Administrator (Right-click → Run as Administrator)
-
-### **Step 3: Press Enter** ⏎
-The tool will automatically:
-- ✅ Download from GitHub
-- ✅ Install dependencies
-- ✅ Launch the tool
-
-### **Step 4: Choose an option** 🎯
-```
-📋 Available Options:
-0. ❌ Exit Program
-1. 🔄 Reset Machine ID           ← Makes Windsurf think it's a new device
-2. ✅ Register with Custom Email  ← Create new account automatically
-3. 🔄 Totally Reset Windsurf     ← Complete reset (recommended)
+**Already Installed:**
+```bash
+cd ~/windsurf-bypass && git pull && pip3 install -r requirements.txt --upgrade && python3 main.py
 ```
 
-**Recommended:** Use **Option 3** for the best results! 🌟
+> **💡 Tip:** If you get "directory already exists" error, use the "Already Installed" command instead.
 
 ---
-
- 
 
 ## 💻 Usage
 
@@ -126,9 +104,6 @@ When you run the tool, you'll see this menu:
        Pro Version Activator v1.0.0
               Author: Munir
 
-Github: https://github.com/black12-ag/windsurf-bypass
-       Customized by Munir - Ready to use!
-
 📋 Available Options:
 0. ❌ Exit Program
 1. 🔄 Reset Machine ID
@@ -136,62 +111,73 @@ Github: https://github.com/black12-ag/windsurf-bypass
 3. 🔄 Totally Reset Windsurf
 ```
 
-### Option 1: Reset Machine ID
-Resets all Windsurf machine identifiers to bypass trial detection.
+### What Each Option Does
 
-### Option 2: Register New Account
-Choose between:
-- **Automatic**: Fully automated registration
-- **Manual**: You control everything, tool provides email and code
+| Option | What It Does | When to Use |
+|--------|--------------|-------------|
+| **Option 1** | Reset Machine ID only | Quick reset, keeps settings |
+| **Option 2** | Register new account | Need fresh account |
+| **Option 3** | Complete reset (BEST) | Full clean slate, **recommended** |
 
-### Option 3: Total Reset
-Complete reset of all Windsurf data and configurations.
+**Recommended:** Use **Option 3** for the best results! 🌟
 
-## 🎯 Manual Registration Mode
+---
 
-### Perfect for users who want full control! ⭐
+## ✨ Features
 
-#### How It Works:
+### 🎯 Core Functionality
+- **🔄 Machine ID Reset** - Instantly reset your Windsurf machine identifiers
+- **📧 Smart Registration** - Two registration modes for maximum flexibility
+- **🔐 Secure Account Management** - Safe handling of credentials and tokens
+- **⚡ Cross-Platform** - Works seamlessly on Windows, macOS, and Linux
 
-1. **Select Option 2** → Register Windsurf with Custom Email
-2. **Choose Manual Mode** (option 2)
-3. **Get Your Email**:
+### 🎨 Registration Modes
+
+#### 🤖 Automatic Mode
+- Fully automated browser control
+- Auto-generates temporary email
+- Automatic verification code retrieval
+- Zero manual intervention required
+- Perfect for quick setups
+
+#### 👤 Manual Mode
+- Generates temporary email for you
+- You control the registration in your browser
+- Displays verification code when it arrives
+- No browser automation - you're in full control
+- Perfect for troubleshooting or custom workflows
+
+---
+
+## 🔧 Troubleshooting
+
+### Common Issues & Quick Fixes
+
+#### **"Python not found"**
+**Solution:** Install Python 3.8+ from [python.org](https://www.python.org/downloads/)
+
+#### **"Git not found"**
+**Solution:** 
+- **Windows:** Install [Git for Windows](https://git-scm.com/download/win)
+- **macOS:** Run `xcode-select --install`
+- **Linux:** Run `sudo apt install git` or `sudo yum install git`
+
+#### **"Permission denied" (macOS/Linux)**
+**Solution:** Run with sudo:
+```bash
+sudo python3 main.py
 ```
-============================================================
-📧 YOUR TEMPORARY EMAIL: example@tempmail.com
-============================================================
 
-ℹ️ 1. Open your browser and go to Windsurf registration
-ℹ️ 2. Copy and use the email above
-ℹ️ 3. Use password: YourPassword123
-ℹ️ 4. Use name: John Doe
-ℹ️ 5. Wait here - the verification code will appear below
+#### **"Directory already exists"**
+**Solution:** Use the "Already Installed" command instead of first-time installation.
+
+#### **"Module not found" error**
+**Solution:** Reinstall dependencies:
+```bash
+pip3 install -r requirements.txt --force-reinstall
 ```
 
-4. **Register in your browser** with the provided credentials
-5. **Get Verification Code**:
-```
-============================================================
-📱 YOUR VERIFICATION CODE: 123456
-============================================================
-
-ℹ️ Copy this code and enter it in your browser!
-```
-
-6. **Complete registration** - Done! ✨
-
-### Benefits:
-- ✅ Full control over the process
-- ✅ Use any browser you prefer
-- ✅ Easier troubleshooting
-- ✅ Works even if automation is blocked
-- ✅ More privacy-friendly
-
-## 🛠️ Configuration
-
-Configuration file location: `~/Documents/.windsurf-free-vip/config.ini`
-
-The tool automatically configures itself based on your operating system. No manual configuration needed!
+---
 
 ## 📋 System Requirements
 
@@ -201,88 +187,12 @@ The tool automatically configures itself based on your operating system. No manu
 | macOS 10.15+ | Intel, Apple Silicon | ✅ Fully Supported |
 | Linux (Ubuntu, Debian, Arch, etc.) | x64, ARM64 | ✅ Fully Supported |
 
-## 🌍 Supported Languages
-
-English • 简体中文 • 繁體中文 • Español • Français • Deutsch • Italiano • Português • Русский • 日本語 • 한국어 • العربية • Türkçe • Nederlands • Tiếng Việt
-
-## ❓ FAQ
-
-<details>
-<summary><b>Is this safe to use?</b></summary>
-
-This tool is for educational purposes only. It does not modify Windsurf's core functionality, only manages local configuration files.
-</details>
-
-<details>
-<summary><b>Why do I need admin privileges?</b></summary>
-
-Some operations require modifying system-level configuration files and registry entries (Windows) or system preferences (macOS).
-</details>
-
-<details>
-<summary><b>Can I use my own email instead of temporary email?</b></summary>
-
-Yes! The manual mode lets you use any email service. The tool only monitors for the verification code.
-</details>
-
-<details>
-<summary><b>What if the verification code doesn't arrive?</b></summary>
-
-- Wait 1-2 minutes (email services can be slow)
-- Make sure you used the exact email provided
-- Check spam/junk folder if using your own email
-- Try restarting the process
-</details>
-
-<details>
-<summary><b>Does this work with the latest Windsurf version?</b></summary>
-
-Yes! The tool is compatible with Windsurf 1.x and later versions.
-</details>
-
-## 🔧 Troubleshooting
-
-### ❓ Common Issues & Quick Fixes
-
-#### **"Python not found"**
-**Solution:** Install Python 3.8+ from [python.org](https://www.python.org/downloads/)
-
-#### **"Permission denied" (macOS/Linux)**
-**Solution:** Run with sudo:
-```bash
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.sh)"
-```
-
-#### **"Execution policy" error (Windows)**
-**Solution:** Run PowerShell as Administrator and execute:
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-```
-Then run the install command again.
-
-#### **"Git not found"**
-**Solution:** 
-- **Windows:** Install [Git for Windows](https://git-scm.com/download/win)
-- **macOS:** Run `xcode-select --install`
-- **Linux:** Run `sudo apt install git` or `sudo yum install git`
-
-#### **Tool doesn't start**
-**Solution:** Run manually:
-```bash
-cd ~/windsurf-bypass-tool
-python3 main.py
-```
-
-#### **"Module not found" error**
-**Solution:** Reinstall dependencies:
-```bash
-pip3 install -r requirements.txt --force-reinstall
-```
+---
 
 ## 📝 Project Structure
 
 ```
-windsurf-bypass-tool/
+windsurf-bypass/
 ├── main.py                      # Main entry point
 ├── windsurf_register_manual.py  # Registration logic
 ├── reset_machine_manual.py      # Machine ID reset
@@ -291,20 +201,21 @@ windsurf-bypass-tool/
 ├── config.py                    # Configuration management
 ├── logo.py                      # ASCII art logo
 ├── locales/                     # Language translations
-│   ├── en.json
-│   ├── zh_cn.json
-│   └── ... (15 languages)
+│   └── en.json
 ├── requirements.txt             # Python dependencies
 └── README.md                    # This file
 ```
 
-## ⚠️ Disclaimer
+---
 
-**Educational Purpose Only**
+## ⚠️ Important Notes
 
-This tool is provided for educational and research purposes only. Users are responsible for complying with Windsurf's Terms of Service and applicable laws. The authors do not endorse or encourage any violation of service terms.
+- **Educational Purpose Only** - This tool is for educational and research purposes
+- **Use Responsibly** - Users are responsible for complying with Windsurf's Terms of Service
+- **No Warranty** - Use at your own risk
+- **Backup First** - Consider backing up your Windsurf settings before using
 
-**Use at your own risk.**
+---
 
 ## 📄 License
 
@@ -312,12 +223,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 
 See [LICENSE.md](LICENSE.md) for details.
 
-## 📄 Copyright and License
-
-**Copyright (c) 2025 Munir**  
-All rights reserved.
-
-This project is customized and maintained by **Munir**. The tool is provided for educational and research purposes only.
+---
 
 ## 🙏 Acknowledgments
 
@@ -328,4 +234,14 @@ This project is customized and maintained by **Munir**. The tool is provided for
 
 ---
 
-<!-- Quick Reference Card with one-line commands removed -->
+<div align="center">
+
+### Made with ❤️ by Munir
+
+**Version 1.0.0** | [GitHub](https://github.com/black12-ag/windsurf-bypass) | [Issues](https://github.com/black12-ag/windsurf-bypass/issues)
+
+⭐ **Star this repo if you find it helpful!** ⭐
+
+**Maintained and Customized by Munir**
+
+</div>
