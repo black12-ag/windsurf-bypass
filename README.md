@@ -17,13 +17,17 @@ Reset machine identity • Auto-create accounts • Complete system reset
 
 ## ⚡ Quick Installation
 
+> Note: Use the correct Python launcher per OS.
+> - Windows: use `py` and `py -m pip`
+> - macOS/Linux: use `python3` and `python3 -m pip`
+
 ### **Windows (PowerShell)**
 
 ```powershell
 git clone https://github.com/black12-ag/windsurf-bypass.git
 cd windsurf-bypass
-pip install -r requirements.txt
-python main.py
+py -m pip install -r requirements.txt
+py main.py
 ```
 
 ### **macOS / Linux**
@@ -31,14 +35,14 @@ python main.py
 ```bash
 git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass
 cd ~/windsurf-bypass
-pip3 install -r requirements.txt
+python3 -m pip install -r requirements.txt
 python3 main.py
 ```
 
 ### **Already Installed? Update:**
 
 ```bash
-cd ~/windsurf-bypass && git pull && pip3 install -r requirements.txt --upgrade && python3 main.py
+cd ~/windsurf-bypass && git pull && python3 -m pip install -r requirements.txt --upgrade && python3 main.py
 ```
 
 **Requirements:** Python 3.8+ • Git
