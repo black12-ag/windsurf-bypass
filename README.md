@@ -14,28 +14,7 @@
 
 ---
 
-## ⚡ Quick Install (One Command - Copy & Paste!)
-
-### 🍎 macOS / 🐧 Linux
-```bash
-curl -fsSL https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.sh | bash
-```
-
-### 🪟 Windows (PowerShell as Admin)
-```powershell
-irm https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.ps1 | iex
-```
-
-**That's it! The tool will install and run automatically!** 🎉
-
-### 🎬 What Happens Next?
-
-```
-📥 Download Tool → 📦 Install Dependencies → 🚀 Launch Tool → 🎯 Choose Option → ✅ Done!
-     (5 sec)            (10 sec)              (instant)        (you pick)      (success!)
-```
-
----
+<!-- Quick Install section removed completely -->
 
 ### 📋 Manual Installation
 
@@ -390,51 +369,4 @@ This project is customized and maintained by **Munir**. The tool is provided for
 
 ---
 
-## 🎯 Quick Reference Card
-
-### One-Line Install Commands
-
-| Platform | Command |
-|----------|---------|
-| **🍎 macOS** | `curl -fsSL https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.sh \| bash` |
-| **🐧 Linux** | `curl -fsSL https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.sh \| bash` |
-| **🪟 Windows** | `irm https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.ps1 \| iex` |
-
-### What Each Option Does
-
-| Option | What It Does | When to Use |
-|--------|--------------|-------------|
-| **Option 1** | Reset Machine ID only | Quick reset, keeps settings |
-| **Option 2** | Register new account | Need fresh account |
-| **Option 3** | Complete reset (BEST) | Full clean slate, recommended |
-
-### Does It Work?
-
-**✅ YES!** After using this tool, Windsurf will think you're using a **brand new machine** because:
-- 🆕 New Machine ID (fresh UUID)
-- 🧹 All device identifiers cleared
-- 🔄 No installation history
-- 🎯 Clean telemetry data
-- ✨ Fresh start like first-time installation
-
----
-
-<div align="center">
-
-### Made with ❤️ by Munir
-
-**Version 1.0.0** | [GitHub](https://github.com/black12-ag/windsurf-bypass) | [Issues](https://github.com/black12-ag/windsurf-bypass/issues)
-
-⭐ **Star this repo if you find it helpful!** ⭐
-
-**Maintained and Customized by Munir**
-
----
-
-### 🚀 Ready to Start?
-
-**Copy the command for your OS and paste it in your terminal!**
-
-**It's that simple!** 🎉
-
-</div>
+<!-- Quick Reference Card with one-line commands removed -->
