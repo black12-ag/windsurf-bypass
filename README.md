@@ -13,10 +13,33 @@
 
 ## 🎯 What is This?
 
-Windsurf Bypass provides tools to manage your Windsurf AI Editor identity:
+Windsurf Bypass provides three powerful tools to manage your Windsurf AI Editor identity:
 - 🔄 **Reset Machine ID** - Reset device fingerprint while keeping settings
 - ✅ **Register New Account** - Automated account creation with temporary email
 - 🔄 **Total Reset** - Complete fresh start (recommended)
+
+## 📊 Tools Comparison
+
+```mermaid
+graph TB
+    A[🚀 WINDSURF BYPASS TOOLS] --> B[🔄 Reset Machine ID]
+    A --> C[✅ Register New Account]
+    A --> D[🔄 Total Reset]
+    
+    B --> E[✅ Keep Settings]
+    B --> F[⚡ Quick & Easy]
+    
+    C --> G[📧 Auto Email]
+    C --> H[🤖 Auto Registration]
+    
+    D --> I[🧹 Complete Clean]
+    D --> J[⭐ Recommended]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#FF5722,stroke:#333,stroke-width:2px,color:#fff
+```
 
 ---
 
@@ -94,6 +117,33 @@ When you run the tool, you'll see this menu:
 | **Option 3** | Complete reset (BEST) | Full clean slate, **recommended** |
 
 **Recommended:** Use **Option 3** for the best results! 🌟
+
+---
+
+## 📚 How It Works
+
+### 🔄 Option 1: Reset Machine ID
+1. 🔄 Quits all Windsurf processes
+2. 🔑 Generates new machine UUID
+3. 🧹 Clears device identifiers
+4. ✅ Keeps your settings intact
+5. 🎉 Ready to use with fresh identity!
+
+### ✅ Option 2: Register New Account
+1. 📧 Generates temporary email address
+2. 🌐 Opens Windsurf registration page
+3. 🤖 Auto-fills registration form (Automatic Mode)
+4. 📱 Retrieves verification code
+5. ✅ Completes account creation
+6. 🎉 New account ready to use!
+
+### 🔄 Option 3: Total Reset (Recommended)
+1. 🔫 Kills all Windsurf processes
+2. 🗑️ Removes all configuration files
+3. 🧹 Deep cleanup (cache, storage, logs)
+4. 🔑 Resets machine identity
+5. 🔍 Verifies complete reset
+6. 🎉 Fresh start like first-time installation!
 
 ---
 
