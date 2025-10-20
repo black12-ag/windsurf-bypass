@@ -29,6 +29,7 @@ cd windsurf-bypass
 py -m pip install -r requirements.txt
 py main.py
 ```
+> If `py` isn't recognized, replace `py` with `python`.
 
 ### **macOS / Linux**
 
@@ -41,11 +42,33 @@ python3 main.py
 
 ### **Already Installed? Update:**
 
+**Windows (PowerShell)**
+```powershell
+cd "$env:USERPROFILE\windsurf-bypass"; git pull; py -m pip install -r requirements.txt --upgrade; py main.py
+```
+
+**macOS / Linux**
 ```bash
 cd ~/windsurf-bypass && git pull && python3 -m pip install -r requirements.txt --upgrade && python3 main.py
 ```
 
 **Requirements:** Python 3.8+ • Git
+
+---
+
+## 📋 One-Line Installers (optional)
+
+**Windows (PowerShell)**
+```powershell
+git clone https://github.com/black12-ag/windsurf-bypass.git "$env:USERPROFILE\windsurf-bypass"; cd "$env:USERPROFILE\windsurf-bypass"; py -m pip install -r requirements.txt; py main.py
+```
+
+**macOS / Linux**
+```bash
+git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass && cd ~/windsurf-bypass && python3 -m pip install -r requirements.txt && python3 main.py
+```
+
+> If the folder already exists, use the Update commands above instead of cloning again.
 
 ---
 
@@ -119,6 +142,34 @@ Run the tool and choose an option:
 <summary><b>❌ "Python not found"</b></summary>
 
 Install Python 3.8+ from [python.org](https://www.python.org/downloads/)
+
+</details>
+
+<details>
+<summary><b>❌ "pip / pip3 not found"</b></summary>
+
+Fix by OS:
+
+- Windows:
+  ```powershell
+  py -m ensurepip --upgrade
+  ```
+- macOS (Homebrew):
+  ```bash
+  brew install python    # includes pip3
+  ```
+- Ubuntu/Debian:
+  ```bash
+  sudo apt update && sudo apt install -y python3-pip
+  ```
+- Fedora:
+  ```bash
+  sudo dnf install -y python3-pip
+  ```
+- Arch:
+  ```bash
+  sudo pacman -S python-pip
+  ```
 
 </details>
 
