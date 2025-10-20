@@ -364,7 +364,7 @@ def main():
     while True:
         try:
             choice_num = 3
-            choice = input(f"\n{EMOJI['ARROW']} {Fore.CYAN}{translator.get('menu.input_choice', choices=f'0-{choice_num}')}: {Style.RESET_ALL}")
+            choice = input(f"\n{EMOJI['ARROW']} {Fore.CYAN}{translator.get('menu.input_choice', choices=f'0-{choice_num}')}: {Style.RESET_ALL}").strip()
 
             match choice:
                 case "0":
@@ -385,7 +385,6 @@ def main():
                     print_menu()
                 case _:
                     print(f"{Fore.RED}{EMOJI['ERROR']} {translator.get('menu.invalid_choice')}{Style.RESET_ALL}")
-                    print_menu()
 
         except KeyboardInterrupt:
             print(f"\n{Fore.YELLOW}{EMOJI['INFO']}  {translator.get('menu.program_terminated')}{Style.RESET_ALL}")
