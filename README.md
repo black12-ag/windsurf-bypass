@@ -16,22 +16,43 @@
 
 <!-- Quick Install section removed completely -->
 
-### 📋 Manual Installation (Single Command)
+### 📋 Installation (Single Command)
 
 **Prerequisites:**
 - Python 3.8 or higher
+- Git installed
 - Internet connection
 - Admin/sudo privileges (for some operations)
 
-#### **Windows (PowerShell)**
+---
+
+#### **🆕 First Time Installation**
+
+**Windows (PowerShell)**
 ```powershell
 git clone https://github.com/black12-ag/windsurf-bypass.git "$env:USERPROFILE\windsurf-bypass-tool"; cd "$env:USERPROFILE\windsurf-bypass-tool"; pip install -r requirements.txt; python main.py
 ```
 
-#### **macOS / Linux**
+**macOS / Linux**
 ```bash
 git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass-tool && cd ~/windsurf-bypass-tool && pip3 install -r requirements.txt && python3 main.py
 ```
+
+---
+
+#### **🔄 Already Installed? Use This Instead** (Recommended)
+
+**Windows (PowerShell)**
+```powershell
+cd "$env:USERPROFILE\windsurf-bypass-tool"; git pull; pip install -r requirements.txt --upgrade; python main.py
+```
+
+**macOS / Linux**
+```bash
+cd ~/windsurf-bypass-tool && git pull && pip3 install -r requirements.txt --upgrade && python3 main.py
+```
+
+> **💡 Tip:** If you already have the folder, use the "Already Installed" command above. It updates the code, upgrades dependencies, and runs the tool.
 
 ## ✨ Features
 
