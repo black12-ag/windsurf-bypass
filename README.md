@@ -29,63 +29,37 @@ Windsurf Bypass provides tools to manage your Windsurf AI Editor identity:
 
 ### Installation
 
-#### **🆕 First Time Installation**
-
-```bash
-# Clone and run (all platforms)
-git clone https://github.com/black12-ag/windsurf-bypass.git
-cd windsurf-bypass
-
-# Install dependencies
-pip3 install -r requirements.txt  # macOS/Linux
-pip install -r requirements.txt   # Windows
-
-# Run the tool
-python3 main.py  # macOS/Linux
-python main.py   # Windows
-```
-
-#### **🔄 Already Installed? Quick Update**
-
 **Windows (PowerShell)**
 ```powershell
-cd "$env:USERPROFILE\windsurf-bypass"; git pull; pip install -r requirements.txt --upgrade; python main.py
+# First Time Installation
+git clone https://github.com/black12-ag/windsurf-bypass.git "$env:USERPROFILE\windsurf-bypass"
+cd "$env:USERPROFILE\windsurf-bypass"
+pip install -r requirements.txt
+python main.py
+
+# Already Installed? Run This Instead
+cd "$env:USERPROFILE\windsurf-bypass"
+git pull
+pip install -r requirements.txt --upgrade
+python main.py
 ```
 
 **macOS / Linux**
 ```bash
-cd ~/windsurf-bypass && git pull && pip3 install -r requirements.txt --upgrade && python3 main.py
+# First Time Installation
+git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass
+cd ~/windsurf-bypass
+pip3 install -r requirements.txt
+python3 main.py
+
+# Already Installed? Run This Instead
+cd ~/windsurf-bypass
+git pull
+pip3 install -r requirements.txt --upgrade
+python3 main.py
 ```
 
----
-
-## 📋 One-Line Installation Commands
-
-### **Windows (PowerShell)**
-
-**First Time:**
-```powershell
-git clone https://github.com/black12-ag/windsurf-bypass.git "$env:USERPROFILE\windsurf-bypass"; cd "$env:USERPROFILE\windsurf-bypass"; pip install -r requirements.txt; python main.py
-```
-
-**Already Installed:**
-```powershell
-cd "$env:USERPROFILE\windsurf-bypass"; git pull; pip install -r requirements.txt --upgrade; python main.py
-```
-
-### **macOS / Linux**
-
-**First Time:**
-```bash
-git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass && cd ~/windsurf-bypass && pip3 install -r requirements.txt && python3 main.py
-```
-
-**Already Installed:**
-```bash
-cd ~/windsurf-bypass && git pull && pip3 install -r requirements.txt --upgrade && python3 main.py
-```
-
-> **💡 Tip:** If you get "directory already exists" error, use the "Already Installed" command instead.
+> **💡 Tip:** If you get "directory already exists" error, use the "Already Installed" commands instead.
 
 ---
 
