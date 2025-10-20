@@ -153,6 +153,85 @@ The tool will automatically:
 
 ---
 
+### 📋 Manual Installation
+
+**Prerequisites:**
+- Python 3.8 or higher
+- Internet connection
+- Admin/sudo privileges (for some operations)
+
+**Steps:**
+
+#### **Windows**
+
+**Step 1:** Download the tool
+```powershell
+git clone https://github.com/black12-ag/windsurf-bypass-tool.git
+```
+
+**Step 2:** Navigate to folder
+```powershell
+cd windsurf-bypass-tool
+```
+
+**Step 3:** Install dependencies
+```powershell
+pip install -r requirements.txt
+```
+
+**Step 4:** Run the tool
+```powershell
+python main.py
+```
+
+---
+
+#### **macOS**
+
+**Step 1:** Download the tool
+```bash
+git clone https://github.com/black12-ag/windsurf-bypass-tool.git
+```
+
+**Step 2:** Navigate to folder
+```bash
+cd windsurf-bypass-tool
+```
+
+**Step 3:** Install dependencies
+```bash
+pip3 install -r requirements.txt
+```
+
+**Step 4:** Run the tool
+```bash
+python3 main.py
+```
+
+---
+
+#### **Linux**
+
+**Step 1:** Download the tool
+```bash
+git clone https://github.com/black12-ag/windsurf-bypass-tool.git
+```
+
+**Step 2:** Navigate to folder
+```bash
+cd windsurf-bypass-tool
+```
+
+**Step 3:** Install dependencies
+```bash
+pip3 install -r requirements.txt
+```
+
+**Step 4:** Run the tool
+```bash
+python3 main.py
+```
+
 ## 💻 Usage
 
 When you run the tool, you'll see this menu:
