@@ -1,2 +1,0 @@
-# One-liner script to download, install, and run Windsurf Bypass Tool on Windows
-git clone https://github.com/black12-ag/windsurf-bypass.git "$env:USERPROFILE\windsurf-bypass-tool"; Set-Location "$env:USERPROFILE\windsurf-bypass-tool"; pip install -r requirements.txt; python main.py
