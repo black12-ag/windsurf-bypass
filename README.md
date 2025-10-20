@@ -36,62 +36,6 @@ irm https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/in
 ```
 
 ---
-<!-- Quick Install section removed -->
-
-## ✨ Features
-
-### 🎯 Core Functionality
-- **🔄 Machine ID Reset** - Instantly reset your Windsurf machine identifiers
-- **📧 Smart Registration** - Two registration modes for maximum flexibility
-- **🔐 Secure Account Management** - Safe handling of credentials and tokens
-- **🌍 Multi-Language Support** - 15 languages including English, Chinese, Spanish, and more
-- **⚡ Cross-Platform** - Works seamlessly on Windows, macOS, and Linux
-
-### 🎨 Registration Modes
-
-#### 🤖 Automatic Mode (Option 1)
-- Fully automated browser control
-- Auto-generates temporary email
-- Automatic verification code retrieval
-- Zero manual intervention required
-- Perfect for quick setups
-
-#### 👤 Manual Mode (Option 2) - ⭐ NEW
-- Generates temporary email for you
-- You control the registration in your browser
-- Displays verification code when it arrives
-- No browser automation - you're in full control
-- Perfect for troubleshooting or custom workflows
-
-<!-- Quick Start section removed -->
-
-## 📖 How to Use (3 Simple Steps)
-
-### **Step 1: Copy the command** 📋
-Choose your operating system above and copy the one-line command.
-
-### **Step 2: Paste in terminal** 💻
-- **macOS/Linux:** Open Terminal
-- **Windows:** Open PowerShell as Administrator (Right-click → Run as Administrator)
-
-### **Step 3: Press Enter** ⏎
-The tool will automatically:
-- ✅ Download from GitHub
-- ✅ Install dependencies
-- ✅ Launch the tool
-
-### **Step 4: Choose an option** 🎯
-```
-📋 Available Options:
-0. ❌ Exit Program
-1. 🔄 Reset Machine ID           ← Makes Windsurf think it's a new device
-2. ✅ Register with Custom Email  ← Create new account automatically
-3. 🔄 Totally Reset Windsurf     ← Complete reset (recommended)
-```
-
-**Recommended:** Use **Option 3** for the best results! 🌟
-
----
 
 ### 📋 Manual Installation
 
@@ -171,6 +115,63 @@ pip3 install -r requirements.txt
 ```bash
 python3 main.py
 ```
+
+## ✨ Features
+
+### 🎯 Core Functionality
+- **🔄 Machine ID Reset** - Instantly reset your Windsurf machine identifiers
+- **📧 Smart Registration** - Two registration modes for maximum flexibility
+- **🔐 Secure Account Management** - Safe handling of credentials and tokens
+- **🌍 Multi-Language Support** - 15 languages including English, Chinese, Spanish, and more
+- **⚡ Cross-Platform** - Works seamlessly on Windows, macOS, and Linux
+
+### 🎨 Registration Modes
+
+#### 🤖 Automatic Mode (Option 1)
+- Fully automated browser control
+- Auto-generates temporary email
+- Automatic verification code retrieval
+- Zero manual intervention required
+- Perfect for quick setups
+
+#### 👤 Manual Mode (Option 2) - ⭐ NEW
+- Generates temporary email for you
+- You control the registration in your browser
+- Displays verification code when it arrives
+- No browser automation - you're in full control
+- Perfect for troubleshooting or custom workflows
+
+<!-- Quick Start section removed -->
+
+## 📖 How to Use (3 Simple Steps)
+
+### **Step 1: Copy the command** 📋
+Choose your operating system above and copy the one-line command.
+
+### **Step 2: Paste in terminal** 💻
+- **macOS/Linux:** Open Terminal
+- **Windows:** Open PowerShell as Administrator (Right-click → Run as Administrator)
+
+### **Step 3: Press Enter** ⏎
+The tool will automatically:
+- ✅ Download from GitHub
+- ✅ Install dependencies
+- ✅ Launch the tool
+
+### **Step 4: Choose an option** 🎯
+```
+📋 Available Options:
+0. ❌ Exit Program
+1. 🔄 Reset Machine ID           ← Makes Windsurf think it's a new device
+2. ✅ Register with Custom Email  ← Create new account automatically
+3. 🔄 Totally Reset Windsurf     ← Complete reset (recommended)
+```
+
+**Recommended:** Use **Option 3** for the best results! 🌟
+
+---
+
+ 
 
 ## 💻 Usage
 
