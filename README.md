@@ -36,6 +36,7 @@ irm https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/in
 ```
 
 ---
+<!-- Quick Install section removed -->
 
 ## ✨ Features
 
@@ -62,68 +63,7 @@ irm https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/in
 - No browser automation - you're in full control
 - Perfect for troubleshooting or custom workflows
 
-## 🚀 Quick Start
-
-### ⚡ One-Line Installation (Copy & Paste)
-
-**The easiest way to install - just copy ONE command and paste it in your terminal!**
-
----
-
-#### 🍎 **macOS**
-
-Open **Terminal** and paste this:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.sh | bash
-```
-
-**Or use this alternative:**
-```bash
-git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass-tool && cd ~/windsurf-bypass-tool && pip3 install -r requirements.txt && python3 main.py
-```
-
----
-
-#### 🪟 **Windows**
-
-Open **PowerShell as Administrator** and paste this:
-
-```powershell
-irm https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.ps1 | iex
-```
-
-**Or use this alternative:**
-```powershell
-git clone https://github.com/black12-ag/windsurf-bypass.git "$env:USERPROFILE\windsurf-bypass-tool"; cd "$env:USERPROFILE\windsurf-bypass-tool"; pip install -r requirements.txt; python main.py
-```
-
----
-
-#### 🐧 **Linux**
-
-Open **Terminal** and paste this:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/black12-ag/windsurf-bypass/main/scripts/install.sh | bash
-```
-
-**Or use this alternative:**
-```bash
-git clone https://github.com/black12-ag/windsurf-bypass.git ~/windsurf-bypass-tool && cd ~/windsurf-bypass-tool && pip3 install -r requirements.txt && python3 main.py
-```
-
----
-
-### ✅ What This Does:
-1. ✅ Downloads the tool from GitHub
-2. ✅ Installs all required dependencies
-3. ✅ Runs the tool automatically
-4. ✅ Works on all platforms (macOS, Windows, Linux)
-
-**That's it! No manual steps needed!** 🎉
-
----
+<!-- Quick Start section removed -->
 
 ## 📖 How to Use (3 Simple Steps)
 
