@@ -585,6 +585,19 @@ See [LICENSE.md](LICENSE.md) for full details.
 
 ---
 
+### 📜 Copyright & Legal
+
+**Copyright © 2025 Munir. All Rights Reserved.**
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.  
+You may not use this software for commercial purposes or create derivative works without explicit permission.
+
+**Developed by:** Munir ([@black12-ag](https://github.com/black12-ag))  
+**Repository:** [windsurf-bypass](https://github.com/black12-ag/windsurf-bypass)  
+**License:** [CC BY-NC-ND 4.0](LICENSE.md)
+
+---
+
 *Last Updated: October 2025*
 
 </div>
